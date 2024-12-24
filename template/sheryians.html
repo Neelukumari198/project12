@@ -1,0 +1,178 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'sheryians.css' %}">
+    <script src="{% static 'sheryians.js' %}" defer></script>
+</head>
+<body>
+    <nav id="nav">
+        <div id="div">🦁 Sheryians coding school
+            <a href="{% url 'app1:home' %}">home</a>
+            <a href="{% url 'app1:Courses' %}">Courses</a>
+            <a href="{% url 'app1:Bootcamp' %}">Bootcamp(Kodr)</a>
+            <a href="{% url 'app1:RequestCallback' %}">Request Callback</a>
+            <button id="sign_button">Sign in</button>
+        </div>
+    </nav>
+    <pre id="pre">
+        we only <span id="span">teach</span>
+      what we are really
+       really <i>good</i> at.
+    </pre>
+    <br>
+    <pre id="pre1">
+        Get ready to <span id="span1">accelerate your
+        career</span> with customized Courses
+        and leave your mark in the tech
+        industry
+
+    </pre>
+    <button id="check_course">Check Courses-Make an impact</button>
+    <br>
+    <div id="sub_div">
+        <div id="sub1">
+            <h3>25K+</h3>
+            <p id="p1">Students taught</p>
+        </div>
+        <div id="sub2">
+            <h3>20+</h3>
+            <p id="p1">Instructors</p>
+        </div>
+        <div id="sub3">
+            <h3>431K+</h3>
+            <p id="p1">Youtube Subs.</p>
+        </div>
+    </div>
+    <br>
+    <pre id="pre2">
+        we do whatever it takes to help you
+             <span id="span2">understand the concepts.</span>     
+    </pre>
+    <div id="img_div">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/60SRAWmMXyc?si=kKgiiSV2oSjgUNAo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br>
+    <button id="explore_button">explore free learning</button>
+    <br>
+    <h3 id="courseheading">Courses Offered.</h3>
+    <br>
+    <section id="course_section">
+        <div id="main_div">
+            <div class="link"><a href="{% url 'app1:frontend' %}"><img id="pic1" src="{% static 'images/img2.webp' %}" alt=""></a></div>
+            <div class="link"><a href="{% url 'app1:backend' %}"><img id="pic2" src="{% static 'images/img1.webp' %}" alt=""></a></div>
+            <div class="link"><a href="{% url 'app1:Aptitude' %}"><img id="pic3" src="{% static 'images/img3.webp' %}" alt=""></a></div>
+            <div class="link"><a href="{% url 'app1:java' %}"><img id="pic4" src="{% static 'images/img4.webp' %}" alt=""></a></div>
+        </div>
+        <div id="main_div1">
+            <div class="tech">
+                <p class="cour">Front-End Domination:</p>
+                <p class="cour">Create Anything with Code</p>
+                <button class="lang">HINDI</button>
+            </div>
+            <div class="tech">
+                <p class="cour">Back-End Domination:</p>
+                <p class="cour">Create Efficient Back-End</p>
+                <button class="lang">HINDI</button>
+            </div>
+            <div class="tech">
+                <p class="cour">Aptitude & Reasoning for</p>
+                <p class="cour">Campus placements</p>
+                <button class="lang">HINENGLISH</button>
+            </div>
+            <div class="tech">
+                <p class="cour">Java & DSA Domination:</p>
+                <p class="cour">Create Anything with Code</p></div>
+                <button class="lang" id="lang1">HINENGLISH</button>
+        </div>
+        <div id="main_div2">
+            <div class="price">
+                <p class="price_dis" ><span id="spanp">Limited Time Discount</span></p>
+                <h1 class="price_dis" id="price_font">₹ 4999<strike id="price_font1" >₹11999</strike></h1>
+            </div>
+            <div class="price">
+                <p class="price_dis" ><span id="spanp">Limited Time Discount</span></p>
+                <h1 class="price_dis" id="price_font">₹ 999<strike id="price_font2">₹1500</strike></h1>
+            </div>
+            <div class="price">
+                <p class="price_dis" ><span id="spanp">Limited Time Discount</span></p>
+                <h1 class="price_dis" id="price_font">₹ 4999<strike id="price_font3">₹9999</strike></h1>
+            </div>
+            <div class="price"><p class="price_dis" ><span id="spanp">Limited Time Discount</span></p>
+                <h1 class="price_dis" id="price_font">₹ 4999<strike id="price_font4">₹9999</strike></h1>
+            </div>
+        </div>
+        <div id="main_div3">
+            <div class="view">
+                <button class="detail_button">View Details</button>
+            </div>
+            <div class="view">
+                <button class="detail_button">View Details</button>
+            </div>
+            <div class="view">
+                <button class="detail_button">View Details</button>
+            </div>
+            <div class="view">
+                <button class="detail_button">View Details</button>
+            </div>
+        </div>
+        
+    </section>
+    <h2 id="heading2">Top <span id="span3">companies</span> our students </h2>
+    <h2 id="heading3">working with</h2>
+    <br>
+    <div id="wpimg_div">
+        <img  id="wpimg" src="{% static 'images/wpimg.webp' %}" alt="">
+    </div>
+    <br>
+    <button id="explore_course">Eplore Courses</button>
+    <br>
+    
+    <footer>
+        <div id="footer">
+            <div class="foot_div">
+                <p>🤶</p><br>
+                <p>Let's connect with our socials</p>
+            </div>
+            <div class="foot_div">
+                <h4>COMPANY</h4><br>
+                <a class="footer_class" href="">About Us</a><br><br>
+                <a class="footer_class" href="">Support</a><br><br>
+                <a class="footer_class" href="">Privacy Policy</a><br><br>
+                <a class="footer_class" href="">Terms and Condition</a><br><br>
+                <a class="footer_class" href="">Pricing and Refund</a><br><br>
+                <a class="footer_class" href="">Hire From Us</a><br><br>
+                <a class="footer_class" href="">Bug Bounty</a><br>
+            </div>
+            <div class="foot_div">
+                <h4>COMMUNITY</h4><br>
+                <a class="footer_class" href="">Inertia</a><br><br>
+                <a class="footer_class" href="">Discord</a>
+            </div>
+            <div class="foot_div">
+                <h4>Get In Touch</h4><br>
+                <a class="footer_class" href="">+91 8109161752</a><br><br>
+                <a class="footer_class" href="">+91 9691778470</a><br><br>
+                <a class="footer_class" href="">hello@sheryianscom</a><br><br>
+                <a class="footer_class" href=""><p>23-B,Indrapuri Sector C,</p>
+                    <p>Bhopal(MP),462021</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <hr id="line">
+    <hr id="line1">
+    <br>
+    <section id="section1">
+        <div id="copy_div">
+            <h3>Copyright@ 2024 Sheryians Pvt.Ltd</h3>
+            <h3>All Rights Reserved</h3>
+
+        </div>
+    </section>
+
+</body>
+</html>

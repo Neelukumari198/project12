@@ -1,0 +1,89 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'Bootcamp.css' %}">
+    <script src="{% static 'Bootcamp.js' %}" defer></script>
+</head>
+<body>
+    <nav id="nav">
+        <div id="div">🦁 Sheryians coding school
+            <a href="{% url 'app1:home' %}">home</a>
+            <a href="{% url 'app1:Courses' %}">Courses</a>
+            <a href="{% url 'app1:Bootcamp' %}">Bootcamp(Kodr)</a>
+            <a href="{% url 'app1:RequestCallback' %}">Request Callback</a>
+            <button id="sign_button">Sign in</button>
+        </div>
+    </nav>
+    <pre id="pre1">
+        6 months In-House
+        Bootcamp programme-
+        Koder.
+    </pre>
+    <h2>Price₹ <span>5900</span></h2>
+    <br>
+    <div id="imgdiv">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/pOGLAlGCKFE?si=ziQQtQV4Y4_glM1T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <br>
+    <button id="seats">Seats are Full</button>
+    <br>
+    <pre id="pre2">
+        We belive in,
+        Consistency.No shortcuts.
+    </pre>
+    <br>
+    <div id="course">
+        <button class="courses">MEAN Stack</button>
+        <button class="courses">DataStructure</button>
+        <button class="courses">DBMS-SQL</button>
+        <button class="courses">CORE CS Subjects</button>
+        <button class="courses">Placement Assistance</button>
+    </div>
+    <br><footer>
+        <div id="footer">
+            <div class="foot_div">
+                <p>🤶</p><br>
+                <p id="connectid">Let's connect with our socials</p>
+            </div>
+            <div class="foot_div">
+                <h4>COMPANY</h4><br>
+                <a class="footer_class" href="">About Us</a><br><br>
+                <a class="footer_class" href="">Support</a><br><br>
+                <a class="footer_class" href="">Privacy Policy</a><br><br>
+                <a class="footer_class" href="">Terms and Condition</a><br><br>
+                <a class="footer_class" href="">Pricing and Refund</a><br><br>
+                <a class="footer_class" href="">Hire From Us</a><br><br>
+                <a class="footer_class" href="">Bug Bounty</a><br>
+            </div>
+            <div class="foot_div">
+                <h4>COMMUNITY</h4><br>
+                <a class="footer_class" href="">Inertia</a><br><br>
+                <a class="footer_class" href="">Discord</a>
+            </div>
+            <div class="foot_div">
+                <h4>Get In Touch</h4><br>
+                <a class="footer_class" href="">+91 8109161752</a><br><br>
+                <a class="footer_class" href="">+91 9691778470</a><br><br>
+                <a class="footer_class" href="">hello@sheryianscom</a><br><br>
+                <a class="footer_class"  href="">
+                    <p class="address">23-B,Indrapuri Sector C,</p>
+                    <br>
+                    <p class="address">Bhopal(MP),462021</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <hr id="line">
+    <hr id="line1">
+    <br>
+    <section id="section1">
+        <div id="copy_div">
+            <h3>Copyright@ 2024 Sheryians Pvt.Ltd</h3>
+            <h3>All Rights Reserved</h3>
+    
+        </div>
+    </section>
